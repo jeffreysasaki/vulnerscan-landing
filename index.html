@@ -1,109 +1,174 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Vulnerscan | Find Vulnerabilities in Your Web Application </title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/5fc605e3c6f98155c3b4383ec/f9828b888cb7edead6559a89f.js");</script>
-	</head>
-	<body class="is-preload">
-			<section id="sidebar">
-				<div class="inner">
-					<nav>
-						<ul>
-							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#features">Features</a></li>
-							<li><a href="#contact">Contact Us</a></li>
-						</ul>
-					</nav>
-				</div>
-			</section>
-			<div id="wrapper">
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
-						<div class="inner">
-							<h1>Vulnerscan</h1>
-							<p>Find vulnerabilities in your web applications. Subscribe to our mailing list to stay up to date with Vulnerscan's development.</p>
-							<ul class="actions">
-								<li><input class="subscribe" type="email" name="email" id="Subscribe" placeholder="Email"></li>
-								<li><button type="submit" class="button">Subscribe</button></li>
-							</ul>
-						</div>
-					</section>
-					<section id="features" class="wrapper style3 fade-up">
-						<div class="inner">
-							<h2>Features</h2>
-							<p>Vulnerscan is a simple to use web application to show vulnerabilities and exploitable loopholes in your web application and your web server.</p>
-							<div class="features">
-								<section>
-									<span class="icon major fa-code"></span>
-									<h3>Deep Comprehensive Scanning</h3>
-									<p>Vulnerscan uses the Metasploit framework, which is used by security analysts and professional penetration testers.</p>
-								</section>
-								<section>
-									<span class="icon major fa-cog"></span>
-									<h3>Always Updated</h3>
-									<p>Cybersecurity trends change rapidly. New vulnerabilities are found everyday. Vulnerscan is always updated to account for the latest known vulnerabilities.</p>
-								</section>
-								<section>
-									<span class="icon major fa-desktop"></span>
-									<h3>Simple to Use</h3>
-									<p>Vulnerscan is built for developers and stakeholders. We understand the importance of your developer's time. It is as simple as entering an IP address or URL and your email.</p>
-								</section>
-								<section>
-									<span class="icon major fa-lock"></span>
-									<h3>Secure</h3>
-									<p>Once the vulnerability scan is complete, Vulnerscan will email you a PDF report of the findings. We do not keep these files on our server. Your information will remain secure.</p>
-								</section>
-							</div>
-						</div>
-					</section>
-					<section id="contact" class="wrapper style1 fade-up">
-						<div class="inner">
-							<h2>Contact Us</h2>
-							<p>Show us your support and interest. Let us know what you want to see. Any questions or comments is truly appreciated.</p>
-							<div class="col">
-								<section>
-									<form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
-										<div class="fields">
-											<div class="field half">
-												<label for="name">Name</label>
-												<input type="text" name="name" id="name" />
-											</div>
-											<div class="field half">
-												<label for="email">Email</label>
-												<input type="email" name="email" id="email" required="required"/>
-											</div>
-											<div class="field">
-												<label for="message">Message</label>
-												<textarea name="message" id="message" rows="5"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><div data-netlify-recaptcha="true"></div></li>
-											<li><button type="submit">Send</button></li>
-										</ul>
-									</form>
-								</section>
-							</div>
-						</div>
-					</section>
-			</div>
-			<footer id="footer" class="wrapper style1-alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>Copyright &copy; 2019 Vulnerscan. All rights reserved.</li>
-						<li>Currently being developed by <a href="https://github.com/jeffreysasaki" target="_blank">Jeff Sasaki</a></li>
-					</ul>
-				</div>
-			</footer>
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-	</body>
+  <head>
+    <title>Vulnerscan | Find Vulnerabilities in Your Web Application</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css"/></noscript>
+    <script id="mcjs">
+      !(function(c, h, i, m, p) {
+        (m = c.createElement(h)),
+          (p = c.getElementsByTagName(h)[0]),
+          (m.async = 1),
+          (m.src = i),
+          p.parentNode.insertBefore(m, p);
+      })(
+        document,
+        "script",
+        "https://chimpstatic.com/mcjs-connected/js/users/5fc605e3c6f98155c3b4383ec/f9828b888cb7edead6559a89f.js"
+      );
+    </script>
+  </head>
+  <body class="is-preload">
+    <section id="sidebar">
+      <div class="inner">
+        <nav>
+          <ul>
+            <li><a href="#intro">Welcome</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+    <div id="wrapper">
+      <section id="intro" class="wrapper style1 fullscreen fade-up">
+        <div class="inner">
+          <h1>Vulnerscan</h1>
+          <p>
+            Find vulnerabilities in your web applications. Subscribe to our
+            mailing list to stay up to date with Vulnerscan's development.
+          </p>
+          <form name="subscribe" method="POST" data-netlify="true">
+            <ul class="actions">
+              <li>
+                <input
+                  class="subscribe"
+                  type="email"
+                  name="email"
+                  id="subscriptionEmail"
+                  placeholder="Email"
+                />
+              </li>
+              <li><button type="submit" class="button">Subscribe</button></li>
+            </ul>
+          </form>
+        </div>
+      </section>
+      <section id="features" class="wrapper style3 fade-up">
+        <div class="inner">
+          <h2>Features</h2>
+          <p>
+            Vulnerscan is a simple to use web application to show
+            vulnerabilities and exploitable loopholes in your web application
+            and your web server.
+          </p>
+          <div class="features">
+            <section>
+              <span class="icon major fa-code"></span>
+              <h3>Deep Comprehensive Scanning</h3>
+              <p>
+                Vulnerscan uses the Metasploit framework, which is used by
+                security analysts and professional penetration testers.
+              </p>
+            </section>
+            <section>
+              <span class="icon major fa-cog"></span>
+              <h3>Always Updated</h3>
+              <p>
+                Cybersecurity trends change rapidly. New vulnerabilities are
+                found everyday. Vulnerscan is always updated to account for the
+                latest known vulnerabilities.
+              </p>
+            </section>
+            <section>
+              <span class="icon major fa-desktop"></span>
+              <h3>Simple to Use</h3>
+              <p>
+                Vulnerscan is built for developers and stakeholders. We
+                understand the importance of your developer's time. It is as
+                simple as entering an IP address or URL and your email.
+              </p>
+            </section>
+            <section>
+              <span class="icon major fa-lock"></span>
+              <h3>Secure</h3>
+              <p>
+                Once the vulnerability scan is complete, Vulnerscan will email
+                you a PDF report of the findings. We do not keep these files on
+                our server. Your information will remain secure.
+              </p>
+            </section>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="wrapper style1 fade-up">
+        <div class="inner">
+          <h2>Contact Us</h2>
+          <p>
+            Show us your support and interest. Let us know what you want to see.
+            Any questions or comments is truly appreciated.
+          </p>
+          <div class="col">
+            <section>
+              <form
+                name="contact"
+                method="POST"
+                data-netlify-recaptcha="true"
+                data-netlify="true"
+              >
+                <div class="fields">
+                  <div class="field half">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" />
+                  </div>
+                  <div class="field half">
+                    <label for="email">Email</label>
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      required="required"
+                    />
+                  </div>
+                  <div class="field">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="5"></textarea>
+                  </div>
+                </div>
+                <ul class="actions">
+                  <li><div data-netlify-recaptcha="true"></div></li>
+                  <li><button type="submit">Send</button></li>
+                </ul>
+              </form>
+            </section>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer id="footer" class="wrapper style1-alt">
+      <div class="inner">
+        <ul class="menu">
+          <li>Copyright &copy; 2019 Vulnerscan. All rights reserved.</li>
+          <li>
+            Currently being developed by
+            <a href="https://github.com/jeffreysasaki" target="_blank"
+              >Jeff Sasaki</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
