@@ -147,7 +147,7 @@
     <footer id="footer" class="wrapper style1-alt">
       <div class="inner">
         <ul class="menu">
-          <li>Copyright &copy; 2019 Vulnerscan. All rights reserved.</li>
+          <li>Copyright &copy; <span id="year"></span> Vulnerscan. All rights reserved.</li>
         </ul>
       </div>
     </footer>
@@ -164,6 +164,7 @@
       src="https://www.googletagmanager.com/gtag/js?id=UA-136320093-1"
     ></script>
     <script>
+      document.getElementById('year').innerHTML = new Date().getFullYear()
       window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
